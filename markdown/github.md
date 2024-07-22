@@ -1,4 +1,5 @@
 # MARKDOWN
+
 h komutları
 
 # Efe
@@ -13,16 +14,15 @@ h komutları
 
 ###### Efe
 
-___
+---
 
-***
+---
 
 ---
 
 h1 benzeri diğer işlem altına (=) koyunca aynı etkiyi gösterir
 
-örnek
-=====
+# örnek
 
 h2 için (-) kullanılabilir
 
@@ -47,8 +47,7 @@ h2 için (-) kullanılabilir
 **kalın** yazı yazmak için ( ** ) veya ( ** ) kullanılabilir
 **örnek**
 2 yerine tek \* \_ kullanınca italik yazar
-( **\* ) ( \_** ) ( *\*\* ) ( **\_ )gibi komutlar arasında yazınca hem kalın hem italik olur
-***gibi\*\_\_
+( **\* ) ( \_** ) ( \*\*\* ) ( **\_ )gibi komutlar arasında yazınca hem kalın hem italik olur \***gibi\*\_\_
 
 birleşik yazı yazarken arada sadece \* olur \_ olmaz yanlış kullanım olur
 
@@ -63,24 +62,25 @@ birleşik yazı yazarken arada sadece \* olur \_ olmaz yanlış kullanım olur
 sayı belirtmek gereken durumlarda liste yaparken sayı sonrası nokta koymaktır
 
 code belirtilen durumlarda
-At the command prompt, type `nano`.
 
-If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (``).
+Komut istemine 'nano' yazın.
 
-`` Use `code` in your Markdown file. ``
+Kod olarak belirtmek istediğiniz kelime veya kelime öbeği bir veya daha fazla geri tırnak içeriyorsa, kelimeyi veya kelime öbeğini çift geri tırnak (``) içine alarak bundan kurtulabilirsiniz.
+
+``Markdown dosyanızda`kodu' kullanın. ''
 
 link için
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com) yazım böyledir
+Favori tarayıcım bu [Duck Duck Go](https://duckduckgo.com) yazım böyledir
 
 URLs and Email Addresses
-To quickly turn a URL or email address into a link, enclose it in angle brackets.
+RL'ler ve E-posta Adresleri
+Bir URL'yi veya e-posta adresini hızlı bir şekilde bağlantıya dönüştürmek için onu açılı parantez içine alın.
 
 <https://www.markdownguide.org>
 <fake@example.com>
 
-To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+Bir görsele bağlantı eklemek için, görselin İşaretlemesini parantez içine alın ve ardından bağlantıyı parantez içine ekleyin.
 
 [![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")
-
 
 ### SELAM
